@@ -98,7 +98,7 @@ export function Header() {
           <Button variant="ghost" size="sm" asChild className="hidden sm:flex">
             <Link href="/login">Log in</Link>
           </Button>
-          <Button size="sm" className="rounded-full px-5 font-semibold">
+          <Button size="sm" className="rounded-full px-5 font-semibold bg-[#166534]">
             Start a Project
           </Button>
         </div>

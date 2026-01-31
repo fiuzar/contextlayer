@@ -8,7 +8,7 @@ const Hero = ({ className }) => {
   return (
     // Background: bg-slate-50
     <section className={cn("h-full w-screen overflow-hidden py-32 bg-[#F8FAFC]", className)}>
-      <div className="container border-t border-b border-dashed border-[#E2E8F0]">
+      <div className="container border-t border-b border-dashed border-[#E2E8F0] mx-auto">
         
         <div className="relative flex w-full max-w-5xl flex-col justify-start border border-t-0 border-dashed border-[#E2E8F0] px-5 py-12 md:items-center md:justify-center lg:mx-auto">
           {/* Accent Text: text-emerald-500 */}
@@ -57,13 +57,13 @@ const Hero = ({ className }) => {
             </div>
             <p className="text-sm font-semibold text-[#64748B]">Unified Project DNA</p>
           </li>
-          <li className="flex h-24 items-center gap-4 border-l border-dashed border-[#E2E8F0] lg:justify-center">
+          <li className="flex h-24 items-center gap-4 px-6 border-l border-dashed border-[#E2E8F0] lg:justify-center">
             <div className="flex size-10 items-center justify-center rounded-lg bg-[#166534]/10">
               <Zap className="size-5 text-[#166534]" />
             </div>
             <p className="text-sm font-semibold text-[#64748B]">Multi-Model Sync</p>
           </li>
-          <li className="flex h-24 items-center gap-4 border-l border-dashed border-[#E2E8F0] lg:justify-center">
+          <li className="flex h-24 items-center gap-4 px-6 border-l border-dashed border-[#E2E8F0] lg:justify-center">
             <div className="flex size-10 items-center justify-center rounded-lg bg-[#166534]/10">
               <ShieldCheck className="size-5 text-[#166534]" />
             </div>
